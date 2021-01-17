@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="Projectar.css"/>
+    <title>Vendas-Online</title>
+  </head>
+  <body>
+    
+    <div id ="icone" onclick="icon();"></div>
+    <div id ="menu-overlay">
+      <ul>
+        <li><a href ="casa">Casa</a></li>
+        <li><a href ="Novidades">Novidades</a></li>
+        <li><a href ="ofertas">Ofertas grátis</a></li>
+        <li><a href ="classi">Classificação</a></li>
+        <li><a href ="sobre">Sobre mim</a></li>
+        <li><a href ="cadastro">Cadastro</a></li>
+      </ul>
+      </div>
+      
+      <script>
+        function icon(){
+          var nav = document.getElementById("icone");
+          nav.classList.toggle('active');
+          
+          var nav = document.getElementById("menu-overlay");
+          nav.classList.toggle('active');
+          
+        }
+      </script>
+  </body>
+</html>
