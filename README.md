@@ -1,2 +1,2 @@
 # Index.html
-:builb:
+:bulb:
